@@ -1,0 +1,107 @@
+<DOCTYPE! html>
+<html>
+<head>
+<style>
+body{
+			font-family:latha;
+			color: white;
+			background: grey;
+		}
+		
+		.box{
+			float: right;
+			border: 1px solid black;
+		}
+		
+		.box ul li{
+			width: 255px;
+			float: left;
+			margin: 10px auto;
+			text-align: center;
+		}
+		
+		.box ul li a{
+			text-decoration: none;
+			color: darkgray;
+		}
+
+
+
+</style>
+</head>
+<body>
+<div class="w3-container"></div>
+<h2><center>ORDER PAYMENT</h2>
+	
+	<div class="box">
+	<ul type="none">
+		<li><a href="home.htm"> Home</a></li>
+		<li><a href="BestSelling.htm"> Best Selling</a></li>
+		<li><a href="Collection.htm"> Book Collection</a></li>
+		<li><a href="about.htm"> About Us</li>
+		<li><a href="https://api.whatsapp.com/send?phone=60166023949&text=SYAZWANI'S%20BOOK%20STORE"> Contact</a></li>
+	</div>
+		
+
+
+<fieldset>
+	<legend><b>PRODUCT DETAILS </b></legend>
+	Book Name:<br>
+	<input type="text" name="details" ><br>
+	<br>
+	Format:<br>
+	<select name="Format" >
+		<option value="a" selected>Select your cover...</option>
+		<option value="Paperback">Paperback</option>
+		<option value="Hardcover">Hardcover</option>
+	</select>			
+</fieldset>
+
+<fieldset>
+	<legend><b>PERSONAL INFORMATION</b></legend>
+	Full Name:<br>
+	<input type="text" name="user" ><br>
+	<br>
+	Delivery Address:<br>
+	<textarea rows="5" cols="50" ></textarea><br>
+	<br>
+	State:<br>
+	<select name="state" >
+		<option value="a" selected>Select your state...</option>
+		<option value="Selangor">Selangor</option>
+		<option value="Johor">Johor</option>
+		<option value="Kedah">Kedah</option>
+		<option value="Kelantan">Kelantan</option>
+		<option value="Melaka">Melaka</option>
+		<option value="Negeri Sembilan">Negeri Sembilan</option>
+		<option value="Pahang">Pahang</option>
+		<option value="Perak">Perak</option>
+		<option value="Perlis">Perlis</option>
+		<option value="Pulau Pinang">Pulau Pinang</option>
+		<option value="Terengganu">Terengganu</option>
+		<option value="Sabah">Sabah</option>
+		<option value="Sarawak">Sarawak</option>
+	</select><br>
+	<br>
+	Phone Number:<br>
+	<input type="text" name="user" value="+60"><br>
+	<br>
+	Payment Mode:<br>
+	<input type="radio" name="mode" value="Credit ">Credit Card
+	<input type="radio" name="mode" value="Debit ">Debit Card  <br>
+	<input type="checkbox" name="agreement" value="yes ">Items will not be refund after purchased. <br>
+	<br>
+
+	<button><a href="AlertBox.htm">Confirm</a></button>
+	<button><a href="home.htm">Cancel </a></button>
+
+
+</fieldset>
+
+
+	
+			
+
+</form>
+</body>
+</html>
